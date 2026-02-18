@@ -133,7 +133,7 @@ footer a:hover { color: var(--ac); border-color: var(--ac); }
 
 <script>
   // CHANGE THIS to the email you want "Contact" to open:
-  const CONTACT_EMAIL = "hello@baseplate.bio";
+  const CONTACT_EMAIL = "benganiaakarsh@berkeley.edu";
 </script>
 
 <nav>
@@ -172,18 +172,18 @@ footer a:hover { color: var(--ac); border-color: var(--ac); }
 <div class="divider fade"><hr></div>
 
 <div class="sec fade">
-  <p class="lead">Biology's biggest bottleneck is not ideas, it's experimentation. We are trying to automate it.</p>
+  <p class="lead">Biology is bottlenecked by experimentation, not ideas.</p>
   <p>A liquid handler can dispense across tens of thousands of wells overnight with sub-microliter precision, but it takes an automation engineer around <strong>40 hours</strong> to set one up for a given protocol. Most research protocols run a few dozen times and then change, so the setup cost never amortizes and the robots collect dust while researchers keep pipetting by hand.</p>
 </div>
 
 <div class="divider fade"><hr></div>
 
 <div class="sec fade">
-  <p>Baseplate is a centralized cloud lab where researchers submit experiments through software and our robotic infrastructure executes them and ships data back to researchers to validate their ideas. Our economics work because we batch process. A protocol that one group needs once runs alongside hundreds of others who need it too, so our hardware stays busy and as costs per-experiment drop low enough, we expect automation to become the obvious default.</p>
+  <p>Baseplate is a centralized cloud lab where researchers submit experiments through software and our robotic infrastructure executes them and ships data back to researchers to validate their ideas. Our economics work because we batch process &mdash; a protocol that one group needs once runs alongside hundreds of others who need it too, so our hardware stays utilized and as costs per-experiment drop low enough, we expect automation to become the obvious default.</p>
 
   <p>Once robots are consistently running, it becomes rational to produce reagents like enzymes, competent cells, and media in-house instead of buying them from suppliers. In centralized facilities, biologics account for over half of material costs and drop roughly <strong>10x</strong> when produced internally. Each time costs fall, more demand comes in, which keeps the machines busier, which justifies producing more inputs from scratch. More volume unlocks a real flywheel.</p>
 
-  <p>The first cloud labs got this logic right but tried to be general purpose from day one, pushing all the logistics onto the customer. We start narrow and solve specific workflows end to end. Plasmid construction, sequence verification, cell-based compound screening.</p>
+  <p>The first cloud labs got this logic right but tried to be general purpose from day one, pushing all the logistics onto the customer. We start narrow and solve specific workflows end to end &mdash; plasmid construction, sequence verification, cell-based compound screening.</p>
 </div>
 
 <div class="divider fade"><hr></div>
@@ -214,7 +214,7 @@ footer a:hover { color: var(--ac); border-color: var(--ac); }
     const footerEmail = document.getElementById("footerEmail");
     if (contactLink) contactLink.setAttribute("href", mailto);
     if (footerEmail) footerEmail.setAttribute("href", mailto);
-    if (footerEmail) footerEmail.textContent = CONTACT_EMAIL;
+    if (footerEmail) footerEmail.textContent = "Contact";
   })();
 
   // Theme toggle (unchanged)
